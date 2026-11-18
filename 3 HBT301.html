@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Course Synopsis &amp; Learning Outcomes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700;8..60,800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#1a1a1a;--ink-soft:#5b5b66;--panel:#faf9f7;--line:rgba(32,36,43,0.14);}
+*{box-sizing:border-box;}
+html,body{margin:0;padding:0;background:#FFFFFF;color:var(--ink);font-family:'Source Serif 4',Georgia,'Times New Roman',serif;}
+.wrap{width:100%;padding:32px 28px 50px;}
+.card{width:100%;position:relative;background:#F0DE6B;border-radius:28px;box-shadow:0 10px 30px rgba(32,36,43,0.10);padding:34px 42px 44px;overflow:hidden;}
+.card::before{content:"";position:absolute;top:0;left:0;right:0;height:6px;background:linear-gradient(90deg,#6b3fa0 0 33.33%,#b8952e 33.33% 66.66%,#6b9c4d 66.66% 100%);}
+.top{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:0 0 22px;}
+h1{font-size:clamp(22px,3.5vw,30px);margin:0;font-weight:800;line-height:1.3;display:flex;align-items:center;gap:10px;}
+h1 .icon{font-size:28px;line-height:1;}
+.lang{display:inline-flex;background:rgba(255,255,255,.7);border:1px solid var(--line);border-radius:999px;padding:4px;gap:4px;}
+.lang button{appearance:none;border:none;background:transparent;font-family:inherit;font-size:14px;font-weight:600;color:var(--ink-soft);padding:7px 14px;border-radius:999px;cursor:pointer;}
+.lang button.on{background:var(--ink);color:#fff;}
+.rows{display:flex;flex-direction:column;gap:8px;}
+.row{display:grid;grid-template-columns:300px minmax(0,1fr);border:1px solid var(--line);border-radius:22px;background:var(--panel);overflow:hidden;}
+.row-head{background:var(--tint);padding:22px 24px;border-right:1px solid var(--line);font-size:18px;font-weight:600;display:flex;align-items:flex-start;gap:10px;}
+.row-head .dot{width:9px;height:9px;border-radius:50%;background:var(--dot);flex:none;margin-top:9px;}
+.row-body{padding:22px 28px 24px;min-width:0;}
+.row-body p{font-size:16px;line-height:1.7;margin:0;}
+.syn{--tint:#f0eafc;--dot:#6b3fa0;}
+.out{--tint:#fdf6dc;--dot:#b8952e;}
+.imp{--tint:#e2f0d9;--dot:#6b9c4d;}
+.lo{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:max-content minmax(0,1fr);gap:12px 14px;align-items:baseline;}
+.lo li{display:contents;}
+.lo-text{font-size:16px;line-height:1.65;}
+.lo-tag{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:#b8952e;border-radius:999px;padding:3px 10px;text-align:center;}
+[data-l="bm"]{display:none;}
+body.bm [data-l="en"]{display:none;}
+body.bm [data-l="bm"]{display:block;}
+body.bm ul[data-l="bm"]{display:grid;}
+.drive{display:flex;align-items:center;gap:10px;background:#dce9fb;border:1.5px solid #a9c8ec;border-radius:14px;padding:13px 16px;margin-top:14px;text-decoration:none;color:var(--ink);font-weight:600;font-size:16px;}
+.drive:hover{border-color:#4a7fc4;}
+.drive small{display:block;font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#3568ab;}
+.drive .arrow{margin-left:auto;color:#3568ab;}
+@media (max-width:720px){
+.wrap{padding:20px 12px 32px;}
+.card{padding:26px 18px 30px;}
+.row{display:block;}
+.row-head{border-right:none;border-bottom:1px solid var(--line);padding:16px 18px;}
+.row-body{padding:16px 18px 20px;}
+}
+</style>
+</head>
+<body>
+<div class="wrap"><div class="card">
+<div class="top">
+<h1><span class="icon">📖</span> HBT 301/4 LEXICOGRAPHY AND TERMINOLOGY</h1>
+<div class="lang"><button class="on" data-set="en">English</button><button data-set="bm">Bahasa Melayu</button></div>
+</div>
+<div class="rows">
+<div class="row syn"><div class="row-head"><span class="dot"></span><span data-l="en">Course Synopsis</span><span data-l="bm">Sinopsis Kursus</span></div>
+<div class="row-body"><p data-l="en">This course teaches principles and practices used to select and organize the content of a dictionary and how to give definitions in a dictionary. This course also discusses the history of lexicography. Things to pay attention include the structure of dictionary presentation, etymology, loanwords, corpus, concordance, giving specific definitions, writing strategies, and dictionary compilation. The problems of various forms of printed and electronic dictionaries are also discussed. This course also teaches the basics of term formation, including formulation strategies: methods, concepts, and concept matching. The effect of borrowing terms in bahasa Malaysia is also introduced.</p><p data-l="bm">Kursus ini mengajarkan prinsip dan amalan yang digunakan untuk memilih dan mengatur kandungan sesuatu kamus dan cara takrifan diberikan dalam kamus. Sejarah perkamusan juga dibincangkan. Perkara-perkara yang diberikan perhatian ialah struktur persembahan kamus, etimologi, kata pinjaman, korpus, konkordans, cara takrifan dibuat secara khusus, strategi penulisan dan penyusunan kamus. Masalah pelbagai bentuk kamus bercetak dan elektronik turut dibincangkan. Kursus ini turut mengajarkan asas-asas pembentukan istilah termasuklah strategi penggubalan: kaedah, konsep dan pemadanan konsep. Kesan peminjaman istilah dalam bahasa Malaysia juga diajarkan.</p></div></div>
+<div class="row out"><div class="row-head"><span class="dot"></span><span data-l="en">Learning Outcomes</span><span data-l="bm">Hasil Pembelajaran</span></div>
+<div class="row-body"><ul class="lo" data-l="en">
+<li><span class="lo-tag">CLO 1</span><span class="lo-text">Explain elements and issues in the field of lexicography and terminology in various contexts and application.</span></li>
+<li><span class="lo-tag">CLO 2</span><span class="lo-text">Demonstrate knowledge of dictionaries and terminology when translating.</span></li>
+<li><span class="lo-tag">CLO 3 &middot; ESD / VBE</span><span class="lo-text">To plan and compile terminology entries by applying critical and strategic thinking (ESD), based on field-specific sources and user needs, in line with the values of self and social awareness (VBE).</span></li>
+</ul><ul class="lo" data-l="bm">
+<li><span class="lo-tag">CLO 1</span><span class="lo-text">Menerangkan elemen dan isu dalam bidang perkamusan dan peristilahan dalam pelbagai konteks dan aplikasi.</span></li>
+<li><span class="lo-tag">CLO 2</span><span class="lo-text">Menunjukkan pengetahuan tentang kamus dan peristilahan semasa menterjemah.</span></li>
+<li><span class="lo-tag">CLO 3 &middot; ESD / VBE</span><span class="lo-text">Merancang dan membina kamus dengan mengaplikasikan pemikiran kritis dan strategik (ESD) berdasarkan sumber bidang khusus dan keperluan pengguna dengan mengambil kira kesedaran diri dan sosiobudaya (VBE).</span></li>
+</ul></div></div>
+</div>
+</div></div>
+<script>
+document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){
+document.body.classList.toggle('bm',b.dataset.set==='bm');
+document.querySelectorAll('.lang button').forEach(function(x){x.classList.toggle('on',x===b);});});});
+</script>
+</body>
+</html>
